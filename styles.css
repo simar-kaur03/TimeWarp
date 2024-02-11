@@ -1,0 +1,559 @@
+@font-face {
+  font-family: 'Rasterman';
+  src: url('rasterman/Rasterman.ttf') format('truetype');
+  /* src: url('Heritage Display, For Usage/Heritage-Display.otf') format('OpenType'); */
+  /* Add other font formats (e.g., woff, woff2) if available */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(11, 11, 11);
+  color: #2EA658;
+  overflow-x: hidden;
+}
+
+.container {
+  width: calc(100% - 350px); /* Set the width to 100% minus the total margin width */
+  max-width: calc(100% - 350px); /* Ensure the maximum width doesn't exceed the viewport width */
+  margin-left: auto; /* Auto left margin */
+  margin-right: auto; /* Auto right margin */
+  position: relative;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  font-size: 1.3rem;
+}
+
+/* Add this style for the new text */
+.first-text {
+  font-family: 'Rasterman', sans-serif;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  position: relative;
+  margin-top: 200px;
+  margin-bottom: 300px;
+  line-height: 2.7; /* Adjust the line height as needed */
+}
+
+
+.heading {
+  margin-top: 11px;
+  font-family: 'Rasterman', Arial, sans-serif;
+  /* You can specify backup fonts after the custom font */
+  /* margin: 0; */
+  font-size: 1.3rem;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: green;
+}
+.about {
+  margin-bottom: 200px; /* Increase the margin to add more space */
+  margin-top: 240px;
+  font-family: 'Rasterman', Arial, sans-serif;
+}
+.about-content {
+  max-width: 620px; /* Adjust the maximum width as needed */
+  margin: right; /* Center the content horizontally */
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+}
+
+.impossible {
+  text-align: center;
+  font-family: 'Rasterman', sans-serif;
+  color: white; /* Change color */
+  font-size: 1.3rem;
+  margin-top: 40px; /* Increase the top margin to shift it down */
+}
+
+.impossible-text {
+  font-family: 'Rasterman', sans-serif; /* Change font family */
+  font-size: 4rem; /* Adjust font size */
+  color: #2EA658;
+  margin-top: 1px; 
+  margin-bottom: 1px; 
+}
+
+.impossible-content {
+  max-width: 620px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the content horizontally */
+}
+.impossible-contentB {
+  max-width: 620px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+
+.time-altering {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.time-altering-content {
+  max-width: 620px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.try-now {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.try-now-content {
+  max-width: 620px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.choose {
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Rasterman', sans-serif; /* Change font family */
+  font-size: 3rem; /* Adjust font size */
+}
+
+.choose-content {
+  max-width: 620px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-family: 'Rasterman', sans-serif; /* Change font family */
+  font-size: 3rem; /* Adjust font size */
+  color: #2EA658;
+}
+
+.Or img {
+  margin: 0px 70px; /* Adjust the margin as needed to separate the images from the text */
+  height: 314px ;
+  width: 350px;
+  margin-top: 20px;
+}
+
+.Or {
+  font-family: 'Rasterman', sans-serif;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.image-container {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.image-container p {
+  margin-top: 5px;
+}
+
+.buy-now-button {
+    margin-top: 70px; /* Adjust margin as needed */
+    margin-bottom: 400px;
+    padding: 10px 10px;
+    background-color: transparent; /* Transparent background */
+    color: #2EA658; /* Green color */
+    border: 2px solid #2EA658; /* Green border */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Rasterman', sans-serif; /* Use Rasterman font */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
+}
+
+.buy-now-button:hover {
+    background-color: #2EA658; /* Green background on hover */
+    color: white; /* White text on hover */
+}
+
+
+
+
+/* FAQ */
+.faq-title {
+  font-family: 'Rasterman', Arial, sans-serif; /* Use green Rasterman font */
+  color: #2EA658; /* Green color */
+  text-align: center; /* Center the heading */
+  margin-bottom: 20px;
+  margin-top: 0px; /* Add some bottom margin for spacing */
+}
+
+.faq-content {
+  max-width: 650px; /* Limit the width of the FAQ content */
+  margin: 0 auto; /* Center the FAQ content horizontally */
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+.faq-question {
+  font-family: 'Rasterman', Arial, sans-serif; /* Use white Rasterman font */
+  color: white; /* White color */
+}
+
+.faq-answer {
+  font-family: Arial, sans-serif;
+  color: white;
+  margin-bottom: 50px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 100px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+
+/* PACE 2X PAGE STYLE  */
+
+
+.top-text{
+  text-align: center;
+  font-family: 'Rasterman', sans-serif; /* Change font family */
+  font-size: 2.3rem; /* Adjust font size */
+  color: #2EA658;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+
+.top-textC{
+  text-align: center;
+  font-family: 'Rasterman', sans-serif; /* Change font family */
+  font-size: 1.7rem; /* Adjust font size */
+  color: White;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.top-textB{
+  text-align: center;
+  font-family: 'Rasterman', sans-serif; /* Change font family */
+  font-size: 2.3rem; /* Adjust font size */
+  color: #2EA658;
+  margin: 0 auto;
+  margin-top: 0px;
+}
+
+
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh; /* Adjust height as needed */
+  transform: translate(-50%, -50%);
+  margin-left: 35%;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#normal {
+  opacity: 1;
+}
+
+#fast {
+  opacity: 0;
+}
+
+.image-container:hover #normal {
+  opacity: 0;
+}
+
+.image-container:hover #fast {
+  opacity: 1;
+}
+
+
+.bn{
+  text-align: center;
+  font-family: 'Rasterman', sans-serif; /* Change font family */
+  font-size: 2.3rem; /* Adjust font size */
+  color: #2EA658;
+  margin: 0 auto;
+  margin-top: 120px;
+
+}
+
+.PACE2X-image-container {
+  position: absolute;
+  margin-top: 800px;
+  top: 53%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.pace2x-text {
+  font-family: 'Rasterman', sans-serif;
+  color: silver;
+  font-size: 3rem;
+  position: absolute;
+  margin-top: -20px;
+
+  margin-left: -120px;
+}
+
+.discription-title{
+  font-family: 'Rasterman', sans-serif;
+  color: silver; /* Green color */
+  position: absolute;
+  top: 110px; /* Adjust the top position */
+  left: calc(50% + 310px); /* Adjust the left position */
+  width: 420px; /* Adjust the width as needed */
+  font-size: 1rem ;
+}
+.time-manipulation-text {
+  font-family: Arial, sans-serif;
+  color: grey;
+  position: absolute;
+  top: 150px; /* Adjust the top position */
+  left: calc(50% + 310px); /* Adjust the left position */
+  width: 420px; /* Adjust the width as needed */
+  font-size: 0.9rem ;
+}
+
+.crypto2x-text {
+  font-family: 'Rasterman', sans-serif;
+  color: #2EA658; /* Green color */
+  position: absolute;
+  top: 290px; /* Adjust the top position */
+  left: calc(50% + 310px); /* Adjust the left position */
+  font-size: 0.8rem; /* Adjust font size */
+  width: 420px;
+}
+
+
+.Pace2x-buy-now-button {
+  position: absolute;
+  top: 410px; /* Adjust the top position */
+  left: calc(50% + 310px); /* Adjust the left position */
+  padding: 10px 10px;
+  background-color: transparent; /* Transparent background */
+  color: #2EA658; /* Green color */
+  border: 2px solid #2EA658; /* Green border */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 320px;
+  font-family: 'Rasterman', sans-serif; /* Use Rasterman font */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
+}
+
+.Pace2x-buy-now-button:hover {
+  background-color: #2EA658; /* Green background on hover */
+  color: white; /* White text on hover */
+}
+
+.p2xpopup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(11, 11, 11);
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 9999;
+}
+
+.p2xpopup-text {
+  font-family: 'Rasterman', sans-serif;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0; /* Remove margin */
+  padding: 20px; /* Add padding */
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+
+.p2xpopup-options {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.p2xoption {
+  font-family: Arial, sans-serif;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center; /* Center align the buttons */
+}
+
+.p2xoption:hover {
+  background-color: white;
+  color: black;
+}
+
+.scrollable-text {
+  max-height: 200px; /* Adjust the maximum height as needed */
+  overflow-y: auto; /* Enable vertical scrolling */
+  margin-top: 10px; /* Adjust margin as needed */
+  padding: 10px; /* Add padding for better readability */
+  background-color: rgba(255, 255, 255, 0.1); /* Add background color */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  font-size: 0.85rem;
+}
+
+.scrollable-text p {
+  margin: 0; /* Remove default margin for paragraphs */
+}
+
+.t-c-title{
+  color: white;
+  font-weight: bold;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: rgb(149, 0, 0); /* Change color on hover if desired */
+}
+
+
+.quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 360px; /* Adjust the top position */
+  left: calc(50% + 310px);
+  margin-bottom: 20px; /* Add margin between the input box and button */
+  position: absolute; /* Add position relative */
+  z-index: 1; /* Add a higher z-index to ensure it appears above other elements */
+}
+
+/* Add these styles to the quantity button */
+.quantity button {
+  border: 2px solid #2EA658; /* Green border */
+  color: #2EA658; /* Green text */
+}
+
+.quantity button:hover {
+  background-color: #2EA658; /* Green background on hover */
+  color: rgb(11, 11, 11); /* White text on hover */
+}
+
+
+.q {
+  font-family: Arial, sans-serif;
+  color: #2EA658;
+  top: 322px; /* Adjust the top position */
+  left: calc(50% + 310px); /* Adjust the left position to center align */
+  font-size: 0.9rem;
+  position: absolute; /* Add position relative */
+}
+
+
+input[type="text"] {
+  width: 50px;
+  height: 30px;
+  border: none;
+  color: #2EA658;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+  border: 2px solid #2EA658;
+  background-color: rgb(11, 11, 11);
+}
+
+.minus-btn, .plus-btn {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: rgb(11, 11, 11);
+}
+
+.minus-btn:hover, .plus-btn:hover {
+  background-color: #e6e6e6;
+}
+
+/* Positioning the buttons */
+.minus-btn {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.plus-btn {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* PACE 05 PAGE STYLE  */
+
+.pace05-text {
+  font-family: 'Rasterman', sans-serif;
+  color: rgb(172, 134, 39);
+  font-family: 'Rasterman', sans-serif;
+  font-size: 3rem;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: -120px;
+}
+
+.time-manipulation-text05{
+  font-family: Arial, sans-serif;
+  color: grey;
+  position: absolute;
+  top: 140px; /* Adjust the top position */
+  left: calc(50% + 310px); /* Adjust the left position */
+  width: 420px; /* Adjust the width as needed */
+  font-size: 0.9rem ;
+}

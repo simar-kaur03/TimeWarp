@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Pace 0.5</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1 class="heading">TimeWarp</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../FAQ/faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div>
+            <p class="top-text"> DO YOU FEEL LIKE YOU </p><p class="top-textB">NEVER HAVE ENOUGH TIME ? </p>
+            <P class="top-textC"> PACE O.5 IS FOR YOU ! <br> </p>
+            
+            <!-- <P class="top-textC"> PACE 2X IS FOR YOU </P> -->
+            <!-- <P> See what it feels like</P> -->
+
+            <div class="image-wrapper">
+                <a class="image-container">
+                    <img id="normal" class="image" src="../Img/butterfly fast .gif" alt="Explore">
+                    <img id="fast" class="image" src="../Img/butterfly two.gif">
+                </a>
+            </div>
+        
+            <p class="bn"> ↓ BUY NOW ! ↓</p>
+
+        <!-- Added the text "Pace 2x" in Rastaman font and silver color -->
+        <div class="PACE2X-image-container">
+            <p class="pace05-text">Pace O.5</p>
+            <img src="../Img/pace pill side view F.png" alt="Image">
+            <!-- Add the quantity input box here -->
+           
+            <div class="q">
+                <p > Quantity </p>
+            </div>
+            
+            <div class="quantity">
+                <button class="minus-btn" type="button" name="button" onclick="decreaseQuantity()">-</button>
+                <input type="text" id="quantity" name="quantity" value="1">
+                <button class="plus-btn" type="button" name="button" onclick="increaseQuantity()">+</button>
+            </div>
+
+            <button class="Pace2x-buy-now-button" onclick="showPopup()"> PROCEED TO CHECKOUT </button>
+
+            <p class="crypto2x-text">0.0017 BTC/0.04 ETH </p>
+            <p class="discription-title">Keen to Savor Every Moment?</p>
+            <p class="time-manipulation-text05"> <br>Discover the rhythm of life at a leisurely pace with Pace 0.5! This unique pill gently slows down your perception of time to half its origianl speed, offering you the opportunity to savor every moment, escape the rush, and embrace the art of unhurried living. <br> Limited quantities available! so seize the chance to experience a more deliberate reality. Explore the extraordinary with TimeWarp - your exclusive gateway to choose how you wanna perceive time. </p>
+        </div>
+
+    </div>
+
+    <!-- Popup container -->
+    <div id="p2xpopup" class="p2xpopup">
+
+        <span class="close-btn" onclick="closePopup()">&times;</span>
+
+        <p class="p2xpopup-text first-text"> 
+            Are you ready to change your life?</p>
+
+            <div class="scrollable-text">
+                <p>
+                    <p class="t-c-title">Terms and Conditions</p>
+                    <br>Welcome to TimeWarp's website, where exploration of altered realities awaits. These terms and conditions govern your access to and use of our website, located at www.TimeWarp.onion. By accessing this website, you acknowledge and agree to abide by these terms and conditions. If you do not agree with any part of these terms, please refrain from continuing to checkout.
+                    <br>You acknowledge and understand that the sale or purchase of Pace pills on this platform is deemed illegal in many jurisdictions. The acquisition or exchange of Pace pills without proper authorization or adherence to legal channels is strictly prohibited and may lead to severe legal consequences, including but not limited to criminal charges, prosecution, and the termination of user accounts. By proceeding, you assume full responsibility for any legal risks associated with your actions.
+                    <br>While we strive to maintain a safe and secure browsing environment, we cannot be held liable for any content that appears on your screen while accessing Pace pills. By proceeding with your purchase, you agree to indemnify and hold us harmless from any claims, demands, or damages arising from your use of Pace pills, including but not limited to claims of copyright infringement, defamation, or illegal distribution.
+                    <br>You acknowledge and accept the inherent risks associated with the consumption of Pace pills. While the intended effects may include altered perception and expanded consciousness, there is a possibility of encountering unexpected side effects. These may include but are not limited to altered states of consciousness, hallucinations, dizziness, nausea, increased heart rate, and potential long-term effects on mental and physical health. It is suggested to approach the use of Pace pills with caution and mindfulness, and to seek medical assistance if you experience any adverse reactions.
+                    <br>To the fullest extent permitted by applicable law, we hereby disclaim all warranties, representations, and conditions, whether express or implied, regarding our product and its use. The use of Pace pills is entirely at your own risk, and TimeWarp shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising from such use, including but not limited to loss of data, revenue, or goodwill. This disclaimer applies even if TimeWarp has been advised of the possibility of such damages.
+                    <br>Due to the nature of the products offered and the platform on which they are sold, direct contact information cannot be provided. Any inquiries or concerns should be directed through secure, encrypted channels to ensure anonymity and security. For assistance, please utilize the encrypted messaging feature available on our website.
+                    <br>By clicking 'YES' and proceeding with your purchase, you acknowledge that you have read, understood, and accepted the terms and conditions outlined above, recognizing the risks associated with the pills and the over all illicit nature of TimeWarp.
+                
+                </p>
+            </div>
+    
+            <div class="p2xpopup-options">
+                <button class="p2xoption" onclick="optionSelected('yes')">Yes!</button>
+                <button class="p2xoption" onclick="optionSelected('not yet')">Not yet</button>
+            </div>            
+
+        </div>
+    </div>
+
+
+    <script src="../Pace 2x/pace2x.js"></script>
+    <script src="../script.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+        /* Add CSS styles to center the image */
+        .container {
+            text-align: center; /* Center align the contents */
+        }
+        .container img {
+            max-width: 100%; /* Ensure the image doesn't exceed container width */
+            height: auto; /* Maintain aspect ratio */
+            display: inline-block; /* Allow for margin auto to center */
+            margin: 0 auto; /* Center the image horizontally */
+        }
