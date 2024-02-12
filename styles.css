@@ -42,7 +42,7 @@ header {
 
 /* Add this style for the new text */
 .first-text {
-  font-family: 'Rasterman', sans-serif;
+  font-family: 'Rasterman', lores-12, sans-serif;
   color: white;
   font-size: 3rem;
   text-align: center;
@@ -55,7 +55,7 @@ header {
 
 .heading {
   margin-top: 11px;
-  font-family: 'Rasterman', Arial, sans-serif;
+  font-family: 'Rasterman', lores-12, Arial, sans-serif;
   /* You can specify backup fonts after the custom font */
   /* margin: 0; */
   font-size: 1.3rem;
@@ -79,7 +79,7 @@ nav ul li a {
 .about {
   margin-bottom: 200px; /* Increase the margin to add more space */
   margin-top: 240px;
-  font-family: 'Rasterman', Arial, sans-serif;
+  font-family: 'Rasterman', lores-12, Arial, sans-serif;
 }
 .about-content {
   max-width: 620px; /* Adjust the maximum width as needed */
@@ -90,14 +90,14 @@ nav ul li a {
 
 .impossible {
   text-align: center;
-  font-family: 'Rasterman', sans-serif;
+  font-family: 'Rasterman', lores-12, sans-serif;
   color: white; /* Change color */
   font-size: 1.3rem;
   margin-top: 40px; /* Increase the top margin to shift it down */
 }
 
 .impossible-text {
-  font-family: 'Rasterman', sans-serif; /* Change font family */
+  font-family: 'Rasterman', lores-12, sans-serif; /* Change font family */
   font-size: 4rem; /* Adjust font size */
   color: #2EA658;
   margin-top: 1px; 
@@ -144,7 +144,7 @@ nav ul li a {
 .choose {
   text-align: center;
   margin-top: 30px;
-  font-family: 'Rasterman', sans-serif; /* Change font family */
+  font-family: 'Rasterman', lores-12, sans-serif; /* Change font family */
   font-size: 3rem; /* Adjust font size */
 }
 
@@ -153,7 +153,7 @@ nav ul li a {
   margin: 0 auto;
   margin-top: 30px;
   margin-bottom: 50px;
-  font-family: 'Rasterman', sans-serif; /* Change font family */
+  font-family: 'Rasterman', lores-12, sans-serif; /* Change font family */
   font-size: 3rem; /* Adjust font size */
   color: #2EA658;
 }
@@ -166,7 +166,7 @@ nav ul li a {
 }
 
 .Or {
-  font-family: 'Rasterman', sans-serif;
+  font-family: 'Rasterman', lores-12, sans-serif;
   font-size: 2rem;
   color: white;
   text-align: center;
@@ -209,7 +209,7 @@ nav ul li a {
 
 /* FAQ */
 .faq-title {
-  font-family: 'Rasterman', Arial, sans-serif; /* Use green Rasterman font */
+  font-family: 'Rasterman', lores-12, Arial, sans-serif; /* Use green Rasterman font */
   color: #2EA658; /* Green color */
   text-align: center; /* Center the heading */
   margin-bottom: 20px;
@@ -224,7 +224,7 @@ nav ul li a {
 }
 
 .faq-question {
-  font-family: 'Rasterman', Arial, sans-serif; /* Use white Rasterman font */
+  font-family: 'Rasterman', lores-12, Arial, sans-serif; /* Use white Rasterman font */
   color: white; /* White color */
 }
 
@@ -247,7 +247,7 @@ footer {
 
 .top-text{
   text-align: center;
-  font-family: 'Rasterman', sans-serif; /* Change font family */
+  font-family: 'Rasterman', lores-12, sans-serif; /* Change font family */
   font-size: 2.3rem; /* Adjust font size */
   color: #2EA658;
   margin: 0 auto;
@@ -256,7 +256,7 @@ footer {
 
 .top-textC{
   text-align: center;
-  font-family: 'Rasterman', sans-serif; /* Change font family */
+  font-family: 'Rasterman', lores-12, sans-serif; /* Change font family */
   font-size: 1.7rem; /* Adjust font size */
   color: White;
   margin: 0 auto;
@@ -265,7 +265,7 @@ footer {
 
 .top-textB{
   text-align: center;
-  font-family: 'Rasterman', sans-serif; /* Change font family */
+  font-family: 'Rasterman', lores-12, sans-serif; /* Change font family */
   font-size: 2.3rem; /* Adjust font size */
   color: #2EA658;
   margin: 0 auto;
@@ -313,7 +313,7 @@ footer {
 
 .bn{
   text-align: center;
-  font-family: 'Rasterman', sans-serif; /* Change font family */
+  font-family: 'Rasterman', lores-12, sans-serif; /* Change font family */
   font-size: 2.3rem; /* Adjust font size */
   color: #2EA658;
   margin: 0 auto;
@@ -330,7 +330,7 @@ footer {
 }
 
 .pace2x-text {
-  font-family: 'Rasterman', sans-serif;
+  font-family: 'Rasterman', lores-12, sans-serif;
   color: silver;
   font-size: 3rem;
   position: absolute;
@@ -340,7 +340,7 @@ footer {
 }
 
 .discription-title{
-  font-family: 'Rasterman', sans-serif;
+  font-family: 'Rasterman', lores-12, sans-serif;
   color: silver; /* Green color */
   position: absolute;
   top: 110px; /* Adjust the top position */
@@ -359,7 +359,7 @@ footer {
 }
 
 .crypto2x-text {
-  font-family: 'Rasterman', sans-serif;
+  font-family: 'Rasterman', lores-12, sans-serif;
   color: #2EA658; /* Green color */
   position: absolute;
   top: 290px; /* Adjust the top position */
@@ -381,7 +381,7 @@ footer {
   cursor: pointer;
   font-size: 16px;
   width: 320px;
-  font-family: 'Rasterman', sans-serif; /* Use Rasterman font */
+  font-family: 'Rasterman', lores-12, sans-serif; /* Use Rasterman font */
   transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
 }
 
@@ -403,7 +403,7 @@ footer {
 }
 
 .p2xpopup-text {
-  font-family: 'Rasterman', sans-serif;
+  font-family: 'Rasterman', lores-12, sans-serif;
   color: white;
   font-size: 2rem;
   text-align: center;
@@ -547,9 +547,9 @@ input[type="text"] {
 /* PACE 05 PAGE STYLE  */
 
 .pace05-text {
-  font-family: 'Rasterman', sans-serif;
+  font-family: 'Rasterman', lores-12, sans-serif;
   color: rgb(172, 134, 39);
-  font-family: 'Rasterman', sans-serif;
+  font-family: 'Rasterman', lores-12, sans-serif;
   font-size: 3rem;
   position: absolute;
   margin-top: -20px;
