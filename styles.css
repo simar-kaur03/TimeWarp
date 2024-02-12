@@ -1,10 +1,17 @@
-@font-face {
+/* @font-face {
   font-family: 'Rasterman';
   src: './rasterman/Rasterman.ttf' format('truetype');
   src: url("https://github.com/simar-kaur03/TimeWarp.git/styles.css/rasterman/Rasterman.ttf") format("truetype"),
   /* src: url('Heritage Display, For Usage/Heritage-Display.otf') format('OpenType'); */
   /* Add other font formats (e.g., woff, woff2) if available */
+/* } */ 
+
+@font-face {
+  font-family: 'Rasterman';
+  src: url('https://simar-kaur03.github.io/TimeWarp/rasterman/Rasterman.ttf') format('truetype');
+  /* Add other font formats (e.g., woff, woff2) if available */
 }
+
 
 body {
   font-family: Arial, sans-serif;
